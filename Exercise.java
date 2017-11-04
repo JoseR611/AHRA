@@ -1,4 +1,4 @@
-public class Exercise{
+public abstract class Exercise{
 
     boolean completed;
 
