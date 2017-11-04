@@ -1,13 +1,12 @@
 public class matchTheWord extends Exercise{
 
   //between 3-6 letters
-  int numOfLetters;
-  String word;
+  private int numOfLetters;
+  private String word;
 
   public matchTheWord(int letterNum){
     numOfLetters = letterNum;
     completed = false;
-
   }
 
   public void runExercise(){

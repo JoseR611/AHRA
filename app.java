@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class app{
 
-  int exercises;
-  String exerciseName;
-  ArrayList<Exercise> currentExer;
+  private int exercises;
+  private String exerciseName;
+  private ArrayList<Exercise> currentExer;
 
   public app(int numOfExer, String name){
     exercises = numOfExer;
@@ -20,9 +20,13 @@ public class app{
         listOfExer.add(new matchTheWord(3));
         //matchTheWord of words 3 characters long
       }
-
-
+    }
+    
     return listOfExer;
-  }
+   }
+    
+    public ArrayList<Exercise> getcurrentExer(){
+    	return currentExer;
+    }
 
 }
