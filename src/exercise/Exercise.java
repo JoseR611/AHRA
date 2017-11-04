@@ -1,3 +1,5 @@
+package exercise;
+
 public abstract class Exercise{
 
     private boolean completed;
@@ -5,3 +7,4 @@ public abstract class Exercise{
     public abstract void runExercise();
 
 }
+
