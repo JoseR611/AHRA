@@ -5,6 +5,9 @@ public class matchTheWord extends Exercise{
 
   public matchTheWord(int letterNum){
     numOfLetters = letterNum;
+    completed = false;
   }
+
+  
 
 }
