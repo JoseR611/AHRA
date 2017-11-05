@@ -26,11 +26,12 @@ public class app{
           //matchTheWord of words 3 characters long
         }
       }
+      
     return listOfExer;
   }
 
-   public ArrayList<Exercise> getcurrentExer(){
-     return currentExer;
-    }
+  public ArrayList<Exercise> getcurrentExer(){
+    return currentExer;
+  }
 
 }
