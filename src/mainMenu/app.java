@@ -20,18 +20,17 @@ public class app{
   public ArrayList<Exercise> createExercises(int num, String type){
     ArrayList<Exercise> listOfExer = new ArrayList<Exercise>();
 
-    if(type.equals("matchTheWord")){
-      for(int i = 0; i < num; i++){
-        listOfExer.add(new matchTheWord(3));
-        //matchTheWord of words 3 characters long
+      if(type.equals("matchTheWord")){
+        for(int i = 0; i < num; i++){
+          listOfExer.add(new matchTheWord(3));
+          //matchTheWord of words 3 characters long
+        }
       }
-
     return listOfExer;
-   }
+  }
 
-    public ArrayList<Exercise> getcurrentExer(){
-    	return currentExer;
+   public ArrayList<Exercise> getcurrentExer(){
+     return currentExer;
     }
 
-}
 }
