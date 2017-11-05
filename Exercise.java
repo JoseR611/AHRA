@@ -2,7 +2,7 @@
 
 public abstract class Exercise{
 
-    private boolean completed;
+     boolean completed;
 
     public abstract void runExercise();
     
