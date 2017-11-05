@@ -1,7 +1,4 @@
-package wordPlay;
-
-import exercise.Exercise;
-
+ 
 public class matchTheWord extends Exercise{
 
 	//between 3-6 letters

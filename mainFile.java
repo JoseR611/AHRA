@@ -1,4 +1,4 @@
-package mainMenu;
+import java.util.Scanner;
 
 public class mainFile{
 
