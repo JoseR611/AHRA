@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=app
+comment1.params=numOfExer\ name
+comment1.target=app(int,\ java.lang.String)
+comment2.params=num\ type
+comment2.target=void\ createExercises(int,\ java.lang.String)
+comment3.params=
+comment3.target=java.util.ArrayList\ getcurrentExer()
+numComments=4

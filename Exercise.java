@@ -1,8 +1,6 @@
- 
-
 public abstract class Exercise{
 
-     boolean completed;
+    protected boolean completed;
 
     public abstract void runExercise();
     

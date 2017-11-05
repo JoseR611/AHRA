@@ -1,32 +1,28 @@
 import java.util.ArrayList;
 
 public class app{
-
-  private int exercises;
-  private String exerciseName;
-  private ArrayList<Exercise> currentExer;
-
-  public app(int numOfExer, String name){
-    exercises = numOfExer;
-    exerciseName = name;
-    currentExer = this.createExercises(exercises, exerciseName);
-  }
-
-  public ArrayList<Exercise> createExercises(int num, String type){
-    ArrayList<Exercise> listOfExer = new ArrayList<Exercise>();
-
-      if(type.equals("matchTheWord")){
-        for(int i = 0; i < num; i++){
-          listOfExer.add(new matchTheWord(3));
-          //matchTheWord of words 3 characters long
-        }
+      private int exercises;
+      private String exerciseName;
+      private ArrayList<Exercise> currentExer;
+    
+      public app(int numOfExer, String name){
+          exercises = numOfExer;
+          exerciseName = name;
+          currentExer = new ArrayList<>();
+          this.createExercises(exercises, exerciseName);
       }
-      
-    return listOfExer;
-  }
-
-  public ArrayList<Exercise> getcurrentExer(){
-    return currentExer;
-  }
+    
+      public void createExercises(int num, String type){
+          if(type.equals("matchTheWord")){
+              for(int i = 0; i < num; i++){
+                  currentExer.add(new matchTheWord(3));
+                  //matchTheWord of words 3 characters long
+              }
+          }
+      }
+    
+      public ArrayList<Exercise> getcurrentExer(){
+          return currentExer;
+      }
 
 }
